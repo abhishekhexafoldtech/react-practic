@@ -1,0 +1,19 @@
+
+
+
+Hooks
+
+// 1. useState -> variable decleration and changable 
+
+// 2. useEffect -> onLoad
+
+// 3. useReducer -> multiple useState
+
+// 4. useCallback -> computed method
+
+// 5. useMemo -> on componet work similar to useCallback
+
+// 6. useRef -> dom node accessible
+
+
+
