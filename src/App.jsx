@@ -4,6 +4,8 @@ import Card from "./components/Card"
 import Login from "./components/Login"
 import Resume from "./components/Resume"
 import Crud from "./components/Crud"
+import CrudTwo from "./components/CrudTwo"
+import CrudSimple from "./components/CrudSimple"
 import Default from "./components/Default"
 
 
@@ -36,6 +38,14 @@ function App() {
             <Route 
               path="/crud"
               element={<Crud />}
+            />
+            <Route 
+              path="/crud2"
+              element={<CrudTwo />}
+            />
+             <Route 
+              path="/crud-simple"
+              element={<CrudSimple />}
             />
           </Routes>
         </BrowserRouter>
